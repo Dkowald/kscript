@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -x powerhsell ]; 
   then 
     echo "powershell already installed"; 
