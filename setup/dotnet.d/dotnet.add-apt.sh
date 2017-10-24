@@ -10,7 +10,7 @@ if [-f /etc/apt/trusted.gpg.d/microsoft.gpg]; then :
     sudo mv ~/kscript/setup/dotnet/microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 fi
 
-if [if /etc/apt/sources.list.d/dotnetdev.list]; then;
+if [if /etc/apt/sources.list.d/dotnetdev.list]; then :
   else
     echo "Adding dotnet apt feed"
     ln -s ~/kscript/setup/dotnet/dotnetdev.list /etc/apt/sources.list.d/dotnetdev.list
