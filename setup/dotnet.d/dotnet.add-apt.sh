@@ -2,7 +2,7 @@
 # Add dot net deb feed.
 # https://www.microsoft.com/net/core#linuxubuntu
 
-if [-f /etc/apt/trusted.gpg.d/microsoft.gpg];then;
+if [-f /etc/apt/trusted.gpg.d/microsoft.gpg]; then :
   else
     echo "Need ms apt key"
     mkdir -p ~/temp/kscript
