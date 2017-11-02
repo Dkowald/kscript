@@ -1,0 +1,1 @@
+To finish up, copy my ssh key into ~/.ssh/authorized_keys
