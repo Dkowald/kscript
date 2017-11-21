@@ -1,1 +1,1 @@
-sudo apt remove dotnet
+sudo apt-get remove 'dotnet*'
