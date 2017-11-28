@@ -1,0 +1,17 @@
+[Unit]
+Description=RavenDb
+After=network.target
+
+[Service]
+User=derek
+#EnvironmentFile=-/etc/default/ssh
+ExecStart=/home/derek/bin/ravendb/RavenDB/Server/Raven.Server
+#ExecReload=/bin/kill -HUP $MAINPID
+#KillMode=process
+#Restart=on-failure
+#RestartPreventExitStatus=255
+#Type=forking
+
+[Install]
+WantedBy=multi-user.target
+Alias=ravendb.service

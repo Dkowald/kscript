@@ -1,0 +1,5 @@
+package = ~/bin/ravendb/RavenDb-*
+bzip2 -d $package
+
+tar -xvf RavenDB-4
+
