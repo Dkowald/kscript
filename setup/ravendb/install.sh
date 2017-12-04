@@ -3,7 +3,6 @@ cp ravendb.service /etc/systemd/system/ravendb.service
 
 #refresh deamon info
 sudo systemctl daemon-reload
-sudo systemctl restart
 
 #enable  the service
 sudo systemctl enable ravendb
